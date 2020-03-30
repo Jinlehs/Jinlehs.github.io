@@ -1,5 +1,8 @@
  <header class="site-header">
-
+  <style> 
+    body {background-color: powderblue;}
+  </style>
+  
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
