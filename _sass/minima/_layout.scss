@@ -26,10 +26,9 @@
   font-family: Roboto, Charcoal, sans-serif; 
   position: relative; 
   top: 4px; 
-  text-align: center; 
 
   @include media-query($on-palm) {
-    padding-right: 45px;
+    padding-right: 50%;
   }
 
   &,
