@@ -39,10 +39,18 @@
     <img src="/images/profile.png" alt="logo" />
     
   </div>
+  <body> 
+    <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+  </body>
   <body style="background-image: linear-gradient(powderblue, whitesmoke);">
 
   <p>
     <br>
   </p>
+
+
 
 </header>
