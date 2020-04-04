@@ -25,7 +25,7 @@
 
   font-family: Roboto, Charcoal, sans-serif; 
 
-  text-align: inherit; 
+  text-align: center; 
 
   &,
   &:visited {
@@ -42,7 +42,11 @@
   float: left;
   font-family: Roboto, Charcoal, sans-serif; 
   position: relative; 
-  text-align: center; 
+  top: 8px; 
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
 
   &,
   &:visited {
