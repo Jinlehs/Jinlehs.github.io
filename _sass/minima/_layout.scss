@@ -18,8 +18,12 @@
 }
 
 .project{
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
   font-family: Roboto, Charcoal, sans-serif; 
-  text-align: left; 
 }
 
 
