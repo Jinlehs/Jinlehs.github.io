@@ -17,6 +17,11 @@
 
 }
 
+.projects{
+  font-family: Roboto, Charcoal, sans-serif; 
+  margin-left: 20px;
+}
+
 
 .site-title {
   @include relative-font-size(3.0);
@@ -63,7 +68,7 @@
     > svg path {
       fill: $brand-color-dark;
     }
-    
+
   }
 
   label[for="nav-trigger"] {
