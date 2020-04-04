@@ -9,9 +9,11 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  font-family: Roboto, Charcoal, sans-serif; 
 }
 .aligncenter {
   text-align: center; 
+
 }
 
 .site-title {
@@ -40,6 +42,7 @@
   border: 1px solid $brand-color-light;
   border-radius: 5px;
   text-align: right;
+  font-family: Roboto, Charcoal, sans-serif; 
 
   .nav-trigger {
       display: none;
@@ -52,7 +55,7 @@
     line-height: 0;
     padding-top: 10px;
     text-align: center;
-
+    font-family: Roboto, Charcoal, sans-serif; 
     > svg path {
       fill: $brand-color-dark;
     }
