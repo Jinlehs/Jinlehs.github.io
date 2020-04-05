@@ -239,6 +239,7 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  color: black; 
 }
 
 .post-list {
