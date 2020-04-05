@@ -35,7 +35,7 @@
 
 
 .site-title {
-  @include relative-font-size(2.5);
+  @include relative-font-size(2.);
   font-weight: 450;
   letter-spacing: 0px;
   margin-bottom: 0;
@@ -150,7 +150,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $brand-color-light;
+ 
   padding: $spacing-unit 0;
 }
 
@@ -274,6 +274,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1.15;
+  color: white; 
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
@@ -325,7 +326,6 @@
     a {
       display: block;
       padding: $spacing-unit / 4;
-      border: 1px solid $brand-color-light;
       &:hover { border-color: darken($brand-color-light, 10%) }
     }
   }
