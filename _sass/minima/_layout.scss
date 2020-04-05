@@ -234,6 +234,7 @@
 
 .page-heading {
   @include relative-font-size(2);
+  color: black; 
 }
 
 .post-list-heading {
@@ -251,7 +252,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $brand-color;
+  color: black;
 }
 
 .post-link {
@@ -273,7 +274,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1.15;
-  color: white; 
+  
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
