@@ -11,15 +11,19 @@
   position: relative;
   font-family: Roboto, Black, sans-serif; 
 }
-.aligncenter {
-  align-items: center; 
-  justify-content: center; 
-  top: 50px;
-  display: inline-block; 
-
+.imgholder{
+  text-align:center;
 }
 
-
+.aligncenter {
+  display: inline-block; 
+}
+.prof {
+  display: inline-block; 
+}
+.python {
+  display: inline-block; 
+}
 .project{
   @include relative-font-size(1.0);
   font-weight: 400;
