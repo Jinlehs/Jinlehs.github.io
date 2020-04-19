@@ -50,6 +50,7 @@
   font-family: Roboto, Black, sans-serif; 
   position: relative; 
   top: 8px; 
+  color: black; 
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -82,7 +83,7 @@
     line-height: 0;
     padding-top: 10px;
     text-align: center;
-    font-family: Roboto, Charcoal, sans-serif; 
+    font-family: Roboto, Black, sans-serif; 
     > svg path {
       fill: $brand-color-dark;
     }
