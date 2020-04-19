@@ -50,7 +50,7 @@
   font-family: Roboto, Black, sans-serif; 
   position: relative; 
   top: 8px; 
-  color: black; 
+  color: red; 
 
   @include media-query($on-palm) {
     padding-right: 45px;
