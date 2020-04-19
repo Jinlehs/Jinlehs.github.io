@@ -50,7 +50,7 @@
   
   position: relative; 
   top: 8px; 
-  color: red; 
+  color: black; 
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -58,7 +58,7 @@
 
   &,
   &:visited {
-    color: $brand-color-dark;
+    color: black;
   }
 }
 
